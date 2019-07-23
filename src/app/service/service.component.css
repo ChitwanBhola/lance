@@ -1,0 +1,40 @@
+
+.service-icon {
+	margin-bottom: 20px;
+}
+
+
+/* ===========================
+--- General sections
+============================ */
+
+.home-section {
+    padding-top: 110px;
+    padding-bottom: 110px;
+	display:block;
+    position:relative;
+    z-index:120;
+}
+
+
+.section-heading h2 {
+	font-size: 40px;
+}
+.section-heading i {
+	margin-bottom: 20px;
+}
+
+
+/* misc */
+hr {
+    margin-top: 10px;
+  }
+  
+  /* margins */
+  .marginbot-0{margin-bottom:0 !important;}
+  .marginbot-10{margin-bottom:10px !important;}
+  .marginbot-20{margin-bottom:20px !important;}
+  .marginbot-30{margin-bottom:30px !important;}
+  .marginbot-40{margin-bottom:40px !important;}
+  .marginbot-50{margin-bottom:50px !important;}
+  

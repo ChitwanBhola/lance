@@ -1,0 +1,89 @@
+
+/* ===========================
+--- Intro
+============================ */
+
+.intro {
+	width:100%;
+	position:relative;
+	background: url('C:\Users\CHITWAN\Desktop\IINTM\src\assets\img\bg1.jpg') no-repeat top center;
+    background-size: cover;
+    height: auto;
+}
+
+#intro.intro {
+	padding:20% 0 0 0;
+}
+
+.intro .slogan {
+	text-align: center;
+
+}
+
+.intro .page-scroll {
+	text-align: center;
+}
+
+.brand-heading {
+    font-size: 40px;
+}
+
+.intro-text {
+    font-size: 18px;
+    
+}
+
+.intro .slogan h2 {
+	color: #FFF;
+	text-shadow: none;
+	font-size: 60px;
+	line-height: 60px;
+	font-weight: 700;
+	font-family: Montserrat, sans-serif;
+	background-color: #4893ce;
+	text-decoration: none;
+	text-transform: uppercase;
+	border-width: 0px;
+	border-color: #000;
+	border-style: none;
+	text-shadow: -1px 0 1px #000;
+}
+
+.intro .slogan h4 {
+	color: #fff;
+    text-shadow: -1px 1px 1px #000;
+    background-color: #4893ce;
+}
+
+@media (max-width: 768px) {
+  .intro .slogan h2 {
+    font-size: 48px;
+  }
+}
+
+@media (max-width: 600px) {
+  .intro .slogan h2 {
+    font-size: 36px;
+  }
+}
+
+
+/* ===========================
+--- General sections
+============================ */
+
+.home-section {
+    padding-top: 110px;
+    padding-bottom: 110px;
+	display:block;
+    position:relative;
+    z-index:120;
+}
+
+
+.section-heading h2 {
+	font-size: 40px;
+}
+.section-heading i {
+	margin-bottom: 20px;
+}

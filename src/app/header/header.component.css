@@ -1,0 +1,208 @@
+.navbar {
+  margin-bottom: 0;
+  border-bottom: 1px solid rgba(255,255,255,.3);
+
+}
+
+.navbar-brand {
+  font-weight: 700;
+}
+.navbar-brand {
+height: 40px;
+padding: 5px 15px;
+font-size: 18px;
+line-height: 1em;
+}
+
+.navbar-brand h1{
+color: #fff;
+font-size: 20px;
+line-height: 40px;
+}
+
+.navbar-brand:focus {
+  outline: 0;
+}
+
+.nav.navbar-nav {
+  background-color: rgba(255,255,255,.4);
+}
+
+.navbar-custom.top-nav-collapse .nav.navbar-nav {
+  background-color: rgba(0,0,0,0);
+}
+
+.navbar-custom ul.nav li a {
+font-size: 12px;
+letter-spacing: 1px;
+  color: #444;
+text-transform: uppercase;
+font-weight: 700;
+}
+
+.navbar-custom.top-nav-collapse ul.nav li a {
+    -webkit-transition: all .2s ease-in-out;
+  -moz-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+color: #fff;
+}
+
+.navbar-custom ul.nav ul.dropdown-menu {
+  border-radius: 0;
+}
+
+.navbar-custom ul.nav ul.dropdown-menu li {
+border-bottom: 1px solid #f5f5f5;
+
+}
+
+.navbar-custom ul.nav ul.dropdown-menu li:last-child{
+border-bottom: none;
+}
+
+.navbar-custom ul.nav ul.dropdown-menu li a {
+padding: 10px 20px;
+}
+
+.navbar-custom ul.nav ul.dropdown-menu li a:hover {
+background: #fefefe;
+}
+
+.navbar-custom.top-nav-collapse ul.nav ul.dropdown-menu li a {
+color: #666;
+}
+
+.navbar-custom .nav li a {
+  -webkit-transition: background .3s ease-in-out;
+  -moz-transition: background .3s ease-in-out;
+  transition: background .3s ease-in-out;
+}
+
+.navbar-custom .nav li a:hover,
+.navbar-custom .nav li a:focus,
+.navbar-custom .nav li.active {
+  outline: 0;
+  background-color: rgba(255,255,255,.2);
+}
+.navbar-custom .nav li a:hover,
+.navbar-custom .nav li a:focus,
+.navbar-custom .nav li.active {
+  outline: 0;
+  background-color: rgba(255,255,255,.2);
+}
+
+.navbar-toggle {
+  padding: 4px 6px;
+  font-size: 14px;
+  color: #fff;
+}
+
+.navbar-toggle:focus,
+.navbar-toggle:active {
+  outline: 0;
+}
+
+
+/* loader */
+#preloader {
+  background: #ffffff;
+  bottom: 0;
+  height: 100%;
+  left: 0;
+  position: fixed;
+  right: 0;
+  top: 0;
+  width: 100%;
+  z-index: 999;
+}
+
+
+#loaderInner {
+  background:#ffffff url('C:\Users\CHITWAN\Desktop\IINTM\src\assets\img\spinner.gif') center center no-repeat;
+  height: 60px;
+  left: 50%;
+  margin: -50px 0 0 -50px;
+  position: absolute;
+  top: 50%;
+  width: 60px;
+}
+
+@keyframes boxSpin{
+0%{
+  transform: translate(-10px, 0px);
+}
+25%{
+  transform: translate(10px, 10px);
+}
+50%{
+  transform: translate(10px, -10px);
+}
+75%{
+  transform: translate(-10px, -10px);
+}
+100%{
+  transform: translate(-10px, 10px);
+}
+}
+
+
+@keyframes shadowSpin{
+0%{
+  box-shadow: 10px -10px #39CCCC, -10px 10px #FFDC00;
+}
+25%{
+  box-shadow: 10px 10px #39CCCC, -10px -10px #FFDC00;
+}
+50%{
+  box-shadow: -10px 10px #39CCCC, 10px -10px #FFDC00;
+}
+75%{
+  box-shadow: -10px -10px #39CCCC, 10px 10px #FFDC00;
+}
+100%{
+  box-shadow: 10px -10px #39CCCC, -10px 10px #FFDC00;
+}
+}
+
+#load {
+z-index: 9999;
+background-color: #FF4136;
+opacity: 0.75;
+width: 10px;
+height: 10px;
+position: absolute;
+top: 50%;
+margin: -5px auto 0 auto;
+left: 0;
+right: 0;
+border-radius: 0px;
+border: 5px solid #FF4136;
+box-shadow: 10px 0px #39CCCC, 10px 0px #01FF70;
+animation: shadowSpin 1s ease-in-out infinite;
+}
+
+/* misc */
+hr {
+margin-top: 10px;
+}
+
+
+/* ===========================
+--- General sections
+============================ */
+
+.home-section {
+  padding-top: 110px;
+  padding-bottom: 110px;
+display:block;
+  position:relative;
+  z-index:120;
+}
+
+
+.section-heading h2 {
+font-size: 40px;
+}
+.section-heading i {
+margin-bottom: 20px;
+}

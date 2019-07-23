@@ -1,0 +1,13 @@
+footer {
+	text-align: center;
+	padding: 50px 0 ;
+
+}
+
+footer p {
+	color: black;
+}
+
+.credits, .credits a {
+    color: black ;
+}
